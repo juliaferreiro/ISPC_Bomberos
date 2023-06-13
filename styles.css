@@ -29,6 +29,8 @@ body {
     background-color: rgb(116, 60, 60);
     padding: 10px;
     text-align: center;
+    
+
   }
   
   nav a {
@@ -50,10 +52,14 @@ body {
     padding-top: 2cm;
     padding-right: 2cm;
     padding-left: 2cm;
+    filter: drop-shadow(10px 10px 5px rgb(190, 190, 190));
+  }
+  .lorem-texto-info{
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .contenedor { 
     display: flex;
-
 
    }
