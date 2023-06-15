@@ -42,7 +42,14 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
+  
+}
+
+.footer-bomberos{
+  margin-top: 70px;
+  background-color:rgb(75, 28, 28) ;
+  
 }
 
 .imagenChiquita {
@@ -60,3 +67,13 @@ footer {
 .contenedor { 
   display: flex;
 }
+.header-titulo-img {
+  display: flex;
+  
+}
+.div-header-titulo{
+  margin-left: 400px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
