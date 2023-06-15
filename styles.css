@@ -14,7 +14,7 @@ body {
     text-align: center;
 
   }
-  
+   
   h1 {
     font-size: 36px;
     margin: 0;
@@ -44,7 +44,12 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+  .footer-bomberos{
+    margin-top: 30px;
+    background-color:rgb(75, 28, 28) ;
+    
   }
 
   .imagenChiquita {
