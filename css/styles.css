@@ -11,13 +11,13 @@ header {
   background-color: rgb(75, 28, 28);
   color: #fff;
   padding: 20px;
-  text-align: center;
+ 
 
 }
   
 h1 {
   font-size: 36px;
-  margin: 0;
+  margin: 10px 0;
 }
   
 p {
@@ -72,11 +72,15 @@ footer {
   
 }
 .div-header-titulo{
-  margin-left: 400px;
-  margin-right: 40px;
+  margin-left:40px;
+  margin-right: 20px;
   margin-top: 20px;
 }
+
 span{
   font-weight: 600;
 }
-
+.div-header-img{
+  margin-left: 400px;
+  
+}
