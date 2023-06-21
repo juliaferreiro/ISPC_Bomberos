@@ -77,3 +77,12 @@ footer {
   margin-top: 20px;
 }
 
+.img-container{
+  width: 75px;
+  height: 75px;
+  display: flex;
+  margin: 3px;
+  margin-right: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
