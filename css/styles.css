@@ -59,7 +59,7 @@ footer {
   padding-left: 2cm;
   filter: drop-shadow(10px 10px 5px rgb(190, 190, 190));
 }
-.lorem-texto-info{
+.texto-info{
   margin-top: 90px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -75,5 +75,8 @@ footer {
   margin-left: 400px;
   margin-right: 40px;
   margin-top: 20px;
+}
+span{
+  font-weight: 600;
 }
 
