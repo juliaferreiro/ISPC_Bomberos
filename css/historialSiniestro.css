@@ -70,6 +70,25 @@ body {
 }
 
 table{border-collapse:collapse; margin-top: 4px; margin-left: 150px;}
+.header-titulo-img {
+  display: flex;
+  
+}
+.div-header-titulo{
+  text-align: left;
+  margin-left:40px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+span{
+  font-weight: 600;
+}
+.div-header-img{
+  margin-left: 400px;
+}
+
+table{border-collapse:collapse; margin-top: 4px; margin-left: 150px;}
+
 th,tr,td{
 	border:1px solid #000;
 	width:150px;
