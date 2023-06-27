@@ -69,7 +69,6 @@ body {
     height: 370px;
 }
 
-<<<<<<< HEAD
 .header-titulo-img {
   display: flex;
   
@@ -86,7 +85,7 @@ span{
 .div-header-img{
   margin-left: 400px;
   
-=======
+}
 table{border-collapse:collapse; margin-top: 4px; margin-left: 4px;}
 th,tr,td{
 	border:1px solid #000;
@@ -102,5 +101,4 @@ th{
 
 tr:nth-child(odd) td{
 	background-color:#eee;
->>>>>>> a984eb7da028b04e1841534e5f4c627d2954abba
 }
