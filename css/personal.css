@@ -83,5 +83,26 @@ span{
 }
 .div-header-img{
   margin-left: 400px;
-  
+}
+
+table{
+  border-collapse:collapse; 
+  margin-top: 4px; 
+  margin-left: 4px;
+}
+
+th,tr,td{
+	border:1px solid #000;
+	width:175px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
 }
