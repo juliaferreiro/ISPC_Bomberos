@@ -68,3 +68,39 @@ body {
     background-color: rgb(255, 255, 255);
     height: 370px;
 }
+
+<<<<<<< HEAD
+.header-titulo-img {
+  display: flex;
+  
+}
+.div-header-titulo{
+  text-align: left;
+  margin-left:40px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+span{
+  font-weight: 600;
+}
+.div-header-img{
+  margin-left: 400px;
+  
+=======
+table{border-collapse:collapse; margin-top: 4px; margin-left: 4px;}
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
+>>>>>>> a984eb7da028b04e1841534e5f4c627d2954abba
+}
