@@ -136,6 +136,16 @@ span{
   margin-left: 400px;
   
 }
+.contenedor-login button{
+  padding: 10px ;
+  margin-left: 60%;
+  font-family: inherit;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  border-radius: 9px;
+  
+  }
 
  
  
