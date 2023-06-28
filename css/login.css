@@ -71,9 +71,12 @@ body {
  .contenedor-login{
   width: 500px;
   height: 400px;
-  background-color:#333 ;
+  background-color:#330101 ;
   margin-left: 400px;
   margin-top: 30px;
+  border-radius: 30px;
+  color: white;
+
  } 
  .contenedor h1{
   margin: 20px;
@@ -89,6 +92,9 @@ body {
   border-radius: 2px;
   
  }
+ input:hover{
+  background-color:rgb(204, 192, 192);
+ }
  .input-1{
   margin-left: 80px;
  }
@@ -99,7 +105,8 @@ body {
  }
  label{
   margin-left: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
  }
 
  .label-2{
@@ -112,6 +119,33 @@ body {
  }
  
  
+.header-titulo-img {
+  display: flex;
+  
+}
+.div-header-titulo{
+  text-align: left;
+  margin-left:40px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+span{
+  font-weight: 600;
+}
+.div-header-img{
+  margin-left: 400px;
+  
+}
+.contenedor-login button{
+  padding: 10px ;
+  margin-left: 60%;
+  font-family: inherit;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  border-radius: 9px;
+  
+  }
 
-
+ 
  

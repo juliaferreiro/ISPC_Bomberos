@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  background-color: rgb(75, 28, 28);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+nav {
+  background-color: rgb(116, 60, 60);
+  padding: 10px;
+  text-align: center;
+  
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+.footer-bomberos{
+  margin-top: 20px;
+  background-color:rgb(75, 28, 28) ;
+  
+}
+.imagenChiquita {
+  width: 30vw;
+  padding-top: 2cm;
+  padding-right: 2cm;
+  padding-left: 2cm;
+  filter: drop-shadow(10px 10px 5px rgb(190, 190, 190));
+}
+.lorem-texto-info{
+  margin-top: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor { 
+  display: flex;
+
+ }
+
+.contenedor-login{
+width: 600px;
+height: 500px;
+background-color:#330101 ;
+margin-left: 400px;
+margin-top: 30px;
+border: solid 2px rgb(68, 67, 67);
+border-radius: 20px;
+
+} 
+.contenedor-login h1{
+color: #dedede;
+}
+.contenedor-login button{
+padding: 15px ;
+margin-left: 60%;
+font-family: inherit;
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 40px;
+border-radius: 9px;
+
+}
+.contenedor h1{
+margin: 20px;
+text-align: center;
+}
+
+.contenedor input{
+width: 50%;
+padding: 10px;
+margin-bottom: 10px;
+background-color: #fafafa;
+border: 1px solid #dedede;
+border-radius: 2px;
+
+}
+input:hover{
+background-color:rgb(204, 192, 192);
+}
+
+
+
+label{
+margin-left: 20px;
+color: rgb(245, 242, 242);
+font-weight: 700;
+}
+
+.label-2{
+margin-left: 20px;
+margin-right: -20px;
+
+}
+form{
+margin-top: 60px;
+}
+.input-3 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.input-4 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.input-2 {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.input-1{
+  margin-left: 70px;
+  }
+   
