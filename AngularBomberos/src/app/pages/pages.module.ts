@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { PersonalComponent } from './personal/personal.component';
 import { RegistroComponent } from './registro/registro.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -21,7 +22,19 @@ import { TutorialComponent } from './tutorial/tutorial.component';
     TutorialComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
+  ],
+  exports: [
+   HistorialSiniestroComponent,
+   IngresarSiniestroComponent,
+   InventarioComponent,
+   LoginComponent,
+   PersonalComponent,
+   RegistroComponent,
+   TutorialComponent
+
   ]
 })
 export class PagesModule { }
+ 

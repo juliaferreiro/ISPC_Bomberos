@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+  background-color: rgb(75, 28, 28);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  margin: 10px 0;
+} 
+.header-titulo-img {
+  display: flex;
+}
+.div-header-titulo{
+  margin-left: 400px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
