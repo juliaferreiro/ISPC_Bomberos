@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { PagesModule } from '../pages/pages.module';
 
 
 
@@ -13,7 +14,13 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    PagesModule
+  ],
+  exports:[
+    HeaderComponent,
+    NavbarComponent,
+    FooterComponent
+  ],
 })
 export class SharedModule { }
