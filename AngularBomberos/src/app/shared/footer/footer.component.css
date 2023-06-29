@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+  
+}
+
+.footer-bomberos{
+  margin-top: 70px;
+  background-color:rgb(75, 28, 28) ;
+  
+}
