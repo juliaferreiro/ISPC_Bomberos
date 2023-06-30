@@ -26,7 +26,7 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+   
   ],
   exports: [
    HistorialSiniestroComponent,
