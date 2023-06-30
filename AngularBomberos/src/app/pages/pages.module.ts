@@ -9,7 +9,6 @@ import { PersonalComponent } from './personal/personal.component';
 import { RegistroComponent } from './registro/registro.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { SharedModule } from '../shared/shared.module';
-import { RouterModule } from '@angular/router';
 
 
 
@@ -21,7 +20,8 @@ import { RouterModule } from '@angular/router';
     LoginComponent,
     PersonalComponent,
     RegistroComponent,
-    TutorialComponent
+    TutorialComponent,
+  
   ],
   imports: [
     CommonModule,
