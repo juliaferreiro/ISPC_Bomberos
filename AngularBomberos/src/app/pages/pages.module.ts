@@ -10,8 +10,6 @@ import { RegistroComponent } from './registro/registro.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { SharedModule } from '../shared/shared.module';
 
-
-
 @NgModule({
   declarations: [
     HistorialSiniestroComponent,

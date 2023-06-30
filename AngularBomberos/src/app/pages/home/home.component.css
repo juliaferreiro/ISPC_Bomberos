@@ -11,8 +11,10 @@ p {
   font-size: 18px;
   margin: 10px 0;
 }
-
-.contenedor { 
+span { color: rgb(44, 3, 3);
+  font-weight: 600;
+}
+.contenedor col-md-8{ 
     display: flex;
 }
   

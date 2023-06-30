@@ -17,10 +17,10 @@ p {
   font-size: 18px;
   margin: 10px 0;
 } 
-.header-titulo-img {
+.div-header-img col-md-6 {
   display: flex;
 }
-.div-header-titulo{
+.div-header-titul col-md-6o{
   margin-left: 400px;
   margin-right: 40px;
   margin-top: 20px;

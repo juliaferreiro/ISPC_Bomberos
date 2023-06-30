@@ -6,8 +6,6 @@ import { FooterComponent } from './footer/footer.component';
 import { PagesModule } from '../pages/pages.module';
 import { RouterModule } from '@angular/router';
 
-
-
 @NgModule({
   declarations: [
     HeaderComponent,
