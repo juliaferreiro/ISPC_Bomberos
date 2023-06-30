@@ -21,13 +21,17 @@ p {
 
 .footer-bomberos{
   margin-top: 70px;
-  background-color:rgb(75, 28, 28) ;
+  background-color:rgb(116, 60, 60) ;
   display: flex;
-  
+  text-align: center 
+}
+
+.aliniarIzquierda {
+  text-align:left
 }
 
 .footer-parafo {
-  background-color: #333;
+  background-color:rgb(75, 28, 28);
   color: #fff;
   padding: 20px;
   text-align: center;
