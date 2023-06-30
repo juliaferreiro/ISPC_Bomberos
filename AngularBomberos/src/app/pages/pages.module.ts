@@ -8,6 +8,7 @@ import { PersonalComponent } from './personal/personal.component';
 import { RegistroComponent } from './registro/registro.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { SharedModule } from '../shared/shared.module';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -19,7 +20,8 @@ import { SharedModule } from '../shared/shared.module';
     LoginComponent,
     PersonalComponent,
     RegistroComponent,
-    TutorialComponent
+    TutorialComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,
