@@ -18,10 +18,7 @@ const routes: Routes = [
   {path: 'personal', component: PersonalComponent},
   {path: 'historial-siniestro', component: HistorialSiniestroComponent},
   {path: 'registro', component: RegistroComponent},
-
-
-
-
+  {path:  '', redirectTo: 'home' , pathMatch: 'full'},
 ];
 
 @NgModule({
