@@ -41,33 +41,39 @@
       />
     </div>
   </div>
-  <div class="row mt-5">
-    <div class="col">
+  <div class="row mt-3">
+      <div class="col-md-2">
       <button
-        class="btn btn-success"
         type="button"
+        class="btn btn-outline-success"
         (click)="onAddUsuario(usuario)"
       >
         Agregar
       </button>
+    </div>
+    <div class="col-md-2">
       <button
-        class="btn btn-warning m-2"
         type="button"
+        class="btn btn-outline-warning"
         (click)="onUpdateUsuario(usuario)"
       >
         Modificar
       </button>
+    </div>
+      <div class="col-md-2">
       <button
-        class="btn btn-danger"
         type="button"
+        class="btn btn-outline-danger"
         (click)="onDeleteUsuario(usuario.DNI)"
       >
         Eliminar
       </button>
-      <button class="btn btn-primary m-2" type="button" (click)="clear()">
-        Limpiar
-      </button>
-    </div>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-outline-info" type="button" (click)="clear()">
+          Limpiar
+        </button>
+      </div>
   </div>
   <div class="row mt-5">
     <div class="col">
