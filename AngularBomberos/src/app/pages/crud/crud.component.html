@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row text-center mt-5">
+    <div class="col">
+      <h2>CRUD Usuarios</h2>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-2">
+      <label for="txtId" class="from-label">ID</label>
+      <input type="text" name="id" id="txtId" class="form-control" [(ngModel)]="usuario.DNI">
+    </div>
+    <div class="col-md-4">
+      <label for="txtApellido" class="from-label">Apellido</label>
+      <input type="text" name="id" id="txtApellido" class="form-control" [(ngModel)]="usuario.Apellido">
+    </div>
+    <div class="col-md-4">
+      <label for="txtNombre" class="from-label">Nombre</label>
+      <input type="text" name="id" id="txtNombre" class="form-control" [(ngModel)]="usuario.Nombre">
+    </div>
+    <div class="col-md-2">
+      <label for="txtJerarquia" class="from-label">Jerarquia</label>
+      <input type="number" name="id" id="txtJerarquia" class="form-control" [(ngModel)]="usuario.ID_Jerarquia">
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col">
+      <button class="btn btn-success" type="button" (click)="onAddUsuario(usuario)">Agregar</button>
+      <button class="btn btn-warning m-2" type="button" (click)="onUpdateUsuario(usuario)">Modificar</button>
+      <button class="btn btn-danger" type="button" (click)="onDeleteUsuario(usuario.DNI)">Eliminar</button>
+      <button class="btn btn-primary m-2" type="button" (click)="clear()">Limpiar</button>
+    </div>
+    
+  </div>
+  <div class="row mt-5">
+    <div class="col">
+      <table id="dtUsuario" class="table table-striped" style="width: 100%;">
+        <thead>
+          <tr>
+            <th>Seleccionar</th>
+            <th>DNI</th>
+            <th>Nombre</th>
+            <th>Jerarquía</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of datatable">
+            <td><input type="button" value="Seleccionar" (click)="onSetData(item)"></td>
+            <td>{{ item.DNI }} </td>
+            <td>{{ item.Nombre }}</td>
+            <td>{{ item.ID_Jerarquia }}</td>
+            <td>{{ item.Estado }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

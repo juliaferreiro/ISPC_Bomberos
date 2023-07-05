@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Usuario } from '../models/usuario';
-import { UsuarioService } from '../services/usuario.service';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { HistorialSiniestroComponent } from './historial-siniestro/historial-siniestro.component';
 import { IngresarSiniestroComponent } from './ingresar-siniestro/ingresar-siniestro.component';
@@ -12,6 +12,7 @@ import { PersonalComponent } from './personal/personal.component';
 import { RegistroComponent } from './registro/registro.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { SharedModule } from '../shared/shared.module';
+import { CrudComponent } from './crud/crud.component';
 
 
 @NgModule({
@@ -23,13 +24,15 @@ import { SharedModule } from '../shared/shared.module';
     PersonalComponent,
     RegistroComponent,
     TutorialComponent,
-
+    CrudComponent,
+    RegistroComponent,
+    PersonalComponent,
   ],
   imports: [
     CommonModule,
     SharedModule,
     FormsModule,
-
+    ReactiveFormsModule
   ],
   exports: [
    HistorialSiniestroComponent,
@@ -38,7 +41,8 @@ import { SharedModule } from '../shared/shared.module';
    LoginComponent,
    PersonalComponent,
    RegistroComponent,
-   TutorialComponent
+   TutorialComponent,
+   CrudComponent
 
   ]
 })

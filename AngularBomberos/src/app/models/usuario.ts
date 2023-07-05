@@ -1,7 +1,7 @@
 export class Usuario {
-    dni:number = 0;
-    apellido:string = "";
-    nombre:string = "";
-    id_Jerarquia:number = 0;
-    estado:boolean = true;
+    DNI:number = 0;
+    Apellido:string = "";
+    Nombre:string = "";
+    ID_Jerarquia:number = 0;
+    Estado:boolean = true;
 }

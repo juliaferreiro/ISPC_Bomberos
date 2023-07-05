@@ -8,6 +8,9 @@ import { InventarioComponent } from './pages/inventario/inventario.component';
 import { PersonalComponent } from './pages/personal/personal.component';
 import { HistorialSiniestroComponent } from './pages/historial-siniestro/historial-siniestro.component';
 import { RegistroComponent } from './pages/registro/registro.component';
+import { CrudComponent } from './pages/crud/crud.component';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 
 const routes: Routes = [
@@ -19,11 +22,12 @@ const routes: Routes = [
   {path: 'personal', component: PersonalComponent},
   {path: 'historial-siniestro', component: HistorialSiniestroComponent},
   {path: 'registro', component: RegistroComponent},
+  {path: 'crud', component: CrudComponent},
   {path:  '', redirectTo: 'home' , pathMatch: 'full'},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), FormsModule, CommonModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -29,7 +29,7 @@ export class RegistroComponent {
   onAddUsuario(usuario:Usuario):void{
     this.usuarioService.addUsuario(usuario).subscribe(res => {
       if(res){
-        alert(`El/la usuario/a ${usuario.nombre} se ha registrado con exito!`);
+        alert(`El/la usuario/a ${usuario.Nombre} se ha registrado con exito!`);
         this.clear();
         //this.onDataTable();
       } else {
@@ -39,18 +39,18 @@ export class RegistroComponent {
   }
 
     onSetData(select:any){
-    this.usuario.dni= select.dni;
-    this.usuario.apellido = select.apellido;
-    this.usuario.nombre = select.nombre;
-    this.usuario.id_Jerarquia = select.id_Jerarquia;
-    this.usuario.estado = select.estado;
+    this.usuario.DNI= select.dni;
+    this.usuario.Apellido = select.Apellido;
+    this.usuario.Nombre = select.Nombre;
+    this.usuario.ID_Jerarquia = select.ID_Jerarquia;
+    this.usuario.Estado = select.Estado;
   }
 
   clear(){
-    this.usuario.dni =0;
-    this.usuario.apellido = "";
-    this.usuario.nombre = "";
-    this.usuario.id_Jerarquia = 0;
-    this.usuario.estado = true;
+    this.usuario.DNI =0;
+    this.usuario.Apellido = "";
+    this.usuario.Nombre = "";
+    this.usuario.ID_Jerarquia = 0;
+    this.usuario.Estado = true;
   }
 }

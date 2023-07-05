@@ -6,17 +6,15 @@
             <h1>REGISTRO</h1>
             <form action="">
               <label class="label-2">DNI: </label>
-              <input class="input-2" type="number"><br>
+              <input class="input-1" id="txtDNI" type="number" class="form-control" [(ngModel)]="usuario.DNI"><br>
               <Label class="">Apellido: </Label>
-              <input class="input-1" type="text"><br>
+              <input class="input-2" id="txtApellido" type="text" class="form-control" [(ngModel)]="usuario.Apellido"><br>
               <label class="label-2">Nombre: </label>
-              <input class="input-2" type="text" ><br>
+              <input type="text" name="id" id="txtNombre" class="form-control" [(ngModel)]="usuario.Nombre">
               <Label class="">Jerarquía: </Label>
-              <input class="input-3" type="text" ><br>
-              <label class="label-2">Estado: </label>
-              <input class="input-4" type="checkbox" >
+              <input class="input-2" id="txtJerarquia" type="number" class="form-control" [(ngModel)]="usuario.ID_Jerarquia"><br>
               <button (click)="onAddUsuario(usuario)">Registrar</button>
-            </form>
+          </form>
           </div>
         </div> 
       </div>

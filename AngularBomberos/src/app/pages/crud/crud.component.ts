@@ -1,32 +1,34 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Usuario } from '../../models/usuario';
 import { UsuarioService } from '../../services/usuario.service';
 
 @Component({
-  selector: 'app-personal',
-  templateUrl: './personal.component.html',
-  styleUrls: ['./personal.component.css']
+  selector: 'app-crud',
+  templateUrl: './crud.component.html',
+  styleUrls: ['./crud.component.css']
 })
-export class PersonalComponent {
-  usuario: Usuario = new Usuario();
-  datatable: any = [];
+export class CrudComponent implements OnInit {
 
-  constructor(private usuarioService: UsuarioService) {
+  usuario:Usuario = new Usuario();
+  datatable:any = [];
+
+  constructor(private usuarioService:UsuarioService){
 
   }
+
   ngOnInit() {
     this.onDataTable();
   }
-  onDataTable() {
+  onDataTable(){
     this.usuarioService.getUsuario().subscribe(res => {
       this.datatable = res;
       console.log(res);
     });
   }
 
-  onAddUsuario(usuario: Usuario): void {
+  onAddUsuario(usuario:Usuario):void{
     this.usuarioService.addUsuario(usuario).subscribe(res => {
-      if (res) {
+      if(res){
         alert(`El usuario ${usuario.Nombre} se ha registrado con exito!`);
         this.clear();
         this.onDataTable();
@@ -36,10 +38,10 @@ export class PersonalComponent {
     });
   }
 
-  onUpdateUsuario(usuario: Usuario): void {
+  onUpdateUsuario(usuario:Usuario):void{
     this.usuarioService.updateUsuario(usuario.DNI, usuario).subscribe(res => {
-      if (res) {
-        alert(`El usuario número ${usuario.DNI} se ha modificado con exito!`);
+      if(res){
+        alert(`El usuario de DNI ${usuario.DNI} se ha modificado con exito!`);
         this.clear();
         this.onDataTable();
       } else {
@@ -48,9 +50,9 @@ export class PersonalComponent {
     });
   }
 
-  onDeleteUsuario(id: number): void {
+  onDeleteUsuario(id:number):void{
     this.usuarioService.deleteUsuario(id).subscribe(res => {
-      if (res) {
+      if(res){
         alert(`El usuario de DNI ${id} se ha eliminado con exito!`);
         this.clear();
         this.onDataTable();
@@ -60,7 +62,7 @@ export class PersonalComponent {
     });
   }
 
-  onSetData(select: any) {
+  onSetData(select:any){
     this.usuario.DNI = select.DNI;
     this.usuario.Apellido = select.Apellido;
     this.usuario.Nombre = select.Nombre;
@@ -68,8 +70,8 @@ export class PersonalComponent {
     this.usuario.Estado = select.Estado;
   }
 
-  clear() {
-    this.usuario.DNI = 0;
+  clear(){
+    this.usuario.DNI =0;
     this.usuario.Apellido = "";
     this.usuario.Nombre = "";
     this.usuario.ID_Jerarquia = 0;

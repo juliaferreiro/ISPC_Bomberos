@@ -35,19 +35,19 @@ namespace AppBomberos.Controllers
       }
 
       // PUT: api/Usuario/5
-      public bool Put(int dni, [FromBody] Usuario usuario)
+      public bool Put(int id, [FromBody] Usuario usuario)
       {
          GestorUsuarios gUsuario = new GestorUsuarios();
-         bool res = gUsuario.updateUsuario(dni, usuario);
+         bool res = gUsuario.updateUsuario(id, usuario);
 
          return res;
       }
 
       // DELETE: api/Usuario/5
-      public bool Delete(int dni)
+      public bool Delete(int id)
       {
          GestorUsuarios gUsuario = new GestorUsuarios();
-         bool res = gUsuario.deleteUsuario(dni);
+         bool res = gUsuario.deleteUsuario(id);
 
          return res;
       }

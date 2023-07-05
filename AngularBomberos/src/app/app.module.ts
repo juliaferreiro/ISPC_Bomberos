@@ -10,6 +10,9 @@ import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { CrudComponent } from './pages/crud/crud.component';
+import { PersonalComponent } from './pages/personal/personal.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 
 
@@ -18,7 +21,10 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent, 
+    CrudComponent, 
+    PersonalComponent, 
+    RegistroComponent
 
   ],
   imports: [
