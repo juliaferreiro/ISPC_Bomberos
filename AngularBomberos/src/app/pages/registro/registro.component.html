@@ -5,15 +5,17 @@
           <div class="contenedor-login">
             <h1>REGISTRO</h1>
             <form action="">
-              <Label class="">Nombre: </Label>
-              <input class="input-1" type="text"><br>
               <label class="label-2">DNI: </label>
               <input class="input-2" type="number"><br>
-              <Label class="">Rango: </Label>
-              <input class="input-3" type="text"><br>
-              <label class="label-2">Contraseña: </label>
-              <input class="input-4" type="password">
-              <button>Registrar</button>
+              <Label class="">Apellido: </Label>
+              <input class="input-1" type="text"><br>
+              <label class="label-2">Nombre: </label>
+              <input class="input-2" type="text" ><br>
+              <Label class="">Jerarquía: </Label>
+              <input class="input-3" type="text" ><br>
+              <label class="label-2">Estado: </label>
+              <input class="input-4" type="checkbox" >
+              <button (click)="onAddUsuario(usuario)">Registrar</button>
             </form>
           </div>
         </div> 

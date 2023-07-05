@@ -9,6 +9,7 @@ import { PersonalComponent } from './pages/personal/personal.component';
 import { HistorialSiniestroComponent } from './pages/historial-siniestro/historial-siniestro.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 
+
 const routes: Routes = [
   {path: 'tutorial', component: TutorialComponent},
   {path: 'login', component: LoginComponent},
